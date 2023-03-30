@@ -1,0 +1,62 @@
+/*********************Main Style *******************/
+* {
+    margin :0;
+    padding :0; 
+	font-size: 14px;
+	box-sizing: border-box;
+}
+
+.heading-style {
+	color: white;
+	font-size: 18px;
+}
+
+.form-sub-heading {
+	color: #26175f;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.positive-btn {
+	background-color: #DA0074;
+	width: 150px;
+	font-weight: bold;
+}
+.positive-btn:hover {
+	background-color: #7c0143;
+	width: 150px;
+	font-weight: bold;
+}
+.navbar-custom {
+    background-image: linear-gradient( to left,rgb(126, 81, 209), rgb(154, 216, 165));
+	color: white;
+}
+.nav-menu-custom li a{
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+.logo-text {
+	font-size: 22px;
+	font-weight: bold;
+	color: #DA0074;
+	margin-left: 10px;
+}
+.custom-label {
+	font-weight: bold;
+	color: #232030;
+}
+
+.dashboard-link:hover {
+	background-color: #2eb64b;
+	color: white;
+}
+.dashboard-link a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.inside-body {
+	min-height: 60vh;
+}
