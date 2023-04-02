@@ -4,6 +4,7 @@
 <div class="card my-4">
     <div class="card-header d-flex jutify-content-between p-4">
         <h3>Create Employee</h3>
+        <div class="ml-auto"><a href="{{route('multiple.employee.create')}}" class="btn btn-success">Create Multiple</a></div>
         <div class="ml-auto"><a href="{{route('employees.index')}}" class="btn btn-success">Employee List</a></div>
     </div>
     <div class="card-body">

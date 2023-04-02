@@ -5,6 +5,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CompanyController;
 use App\Http\Controllers\EmployeeController;
+use App\Http\Controllers\MultipleEmployeeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,6 +24,8 @@ use App\Http\Controllers\EmployeeController;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::resource('/companies', CompanyController::class);
 Route::resource('/employees', EmployeeController::class);
+Route::get('/multiple-employee-create', [MultipleEmployeeController::class, 'create_multiple'])->name('multiple.employee.create');
+Route::post('/multiple-employee-store', [MultipleEmployeeController::class, 'store_multiple'])->name('multiple.employee.store');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
